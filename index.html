@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Nikon D3400</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+    <header>
+        <h1><img src="images/nikond3400-logo.png" alt="Nikon D3400 logo" class="logo"/></h1>
+    </header>
+    <main>
+        <div id="photo-viewer"></div>
+        <div id="thumbnails">
+                <a href="images/d3400_01.png" class="thumb active"><img src="images/d3400-thumb-1.png" alt="camera front view"/></a>
+                <a href="images/d3400_02.png" class="thumb"><img src="images/d3400-thumb-2.png" alt="camera back view"/></a>
+                <a href="images/d3400_03.png" class="thumb"><img src="images/d3400-thumb-3.png" alt="camera top view"/></a>
+        </div>
+        <div class="info-panel">
+            <ul class="tab-list">
+                <li class="active"><a class="tab-control" href="#tab-1"><h2>Description</h2></a></li>
+                <li><a class="tab-control" href="#tab-2"><h2>Specifications</h2></a></li>
+                <li><a class="tab-control" href="#tab-3"><h2>Accessories</h2></a></li>
+            </ul>
+            <div class="tab-panel active" id="tab-1">
+                <ul>
+                    <li><p>Automatic image transfer to smart device with SnapBridge app</p></li>
+                    <li><p>Superior image quality thanks to image sensor featuring 24.2 effective megapixels and EXPEED 4 image-processing engine</p></li>
+                    <li><p>Wide ISO range up to ISO 25600 for beautiful images even at night or indoors</p></li>
+                    <li><p>Guide mode providing step-by-step assistance for camera use</p></li>
+                    <li><p>Long battery life letting you shoot up to approx. 1,200 shots per charge</p></li>
+                    <li><p>Easy handling with lightweight, ergonomic body</p></li>
+                </ul>
+            </div>
+            <div class="tab-panel" id="tab-2">
+                <dl>
+                    <dt>Image size &#40;pixels&#41;</dt>
+                    <dd>6000 x 4000 &#40;large&#41;, 4496 x 3000 &#40;medium&#41;, 2992 x 2000 &#40;small&#41;</dd>
+                    <dt>File format</dt>
+                    <dd>NEF (RAW): 12 bit, compressed; JPEG: JPEG-Baseline compliant with fine, normal, or basic compression; NEF &#40;RAW&#41; + JPEG: Single photograph recorded in both NEF (RAW) and JPEG formats</dd>
+                    <dt>Dimensions &#40;W x H x D&#41;</dt>
+                    <dd>Approx. 124 x 98 x 75.5 mm/4.9 x 3.9 x 3 in.</dd>
+                    <dt>Weight</dt>
+                    <dd>Approx. 445 g/15.7 oz &#40;with battery and memory card but without body cap&#41;; approx. 395 g/14 oz &#40;camera body only&#41;</dd>
+                </dl>
+            </div>
+            <div class="tab-panel" id="tab-3">                
+                <ul>
+                    <li><p>Speedlights/Flashes</p></li>
+                    <li><p>Remotes &amp; Releases</p></li>
+                    <li><p>Cases &amp; Straps</p></li>
+                    <li><p>Eyepieces &amp; Viewfinders</p></li>
+                    <li><p>NIKKOR Lenses</p></li>
+                    <li><p>Power Accessories</p></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
