@@ -1,5 +1,6 @@
 $(function(){
     /** photo viewer javascript starts here**/
+    console.log('hello');
     var request;
     var $current;
     var cache = {};
